@@ -1,0 +1,19 @@
+pssql notes
+
+procidual sql language
+
+point(1) some work then can not happen in sql so we can do in pssql like loopig, branchig etc
+
+point(2) view=> view is a virtual table ,it is a coppy of original table,read only ,sql statment, we can use  only single sql statment
+it si 2 type , virtual type and materalized type , in matrial pysical data exist hota hai and in vartual nhi hota hai
+
+sytntex=> cerate view vievname 
+          as
+          select * from table name 
+          
+example=> create VIEW V_employee
+as
+select * from employee
+
+point(3) after creation view jab bhi ham sql quary ke data ko update karte h to view ka data bhi upate hota h jis quary se view bna hai
+
